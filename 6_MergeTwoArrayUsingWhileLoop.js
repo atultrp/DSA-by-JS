@@ -1,7 +1,7 @@
 // Merging two arrays using while loop
 
-let a = [1, 9, 0, 2, 3, 4]
-let b = [5, 6, 7]
+let a = [1, 3, 5, 7]
+let b = [0, 2, 6]
 let c = []
 
 let i = 0
@@ -20,10 +20,8 @@ while (i < a.length && j < b.length) {
   k++
 }
 
-console.log(c)
-
 while (i < a.length) {
-  b[k] = a[i]
+  c[k] = a[i]
   i++
   k++
 }
