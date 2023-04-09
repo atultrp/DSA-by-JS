@@ -1,5 +1,4 @@
 // Merging two arrays using while loop
-
 let a = [1, 3, 5, 7]
 let b = [0, 2, 6]
 let c = []
